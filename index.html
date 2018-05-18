@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja" >
+<head>
+  <meta charset="UTF-8">
+  <title>speech</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main">
+  <div class="read-container">
+    <textarea type="text" id="txt">ここの文字を読み上げます。</textarea>
+    <button type="button" onClick="read()">読む！</button>
+  </div>
+
+  <div class="call-container">
+    <input type="number" id="num" value="1234" oninput="lengthCheck(this)">
+    <button type="button" onClick="call()">呼出！</button>
+  </div>
+</div>
+
+<script  src="index.js"></script>
+</body>
+</html>

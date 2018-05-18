@@ -1,0 +1,40 @@
+* {
+  border: none;
+}
+
+html {
+  background: #eee;
+}
+
+.main {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.read-container, .call-container {
+  margin: 8px;
+}
+
+input, textarea {
+  vertical-align: middle;
+  padding: 0;
+  height: 40px;
+  width: 200px;
+  resize: none;
+}
+
+input {
+  text-align: center;
+  padding: 0 0px;
+  font-size: 26px;
+}
+
+button {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: 60px;
+  height: 40px;
+  border-radius: 0px;
+}
