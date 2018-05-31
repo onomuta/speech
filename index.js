@@ -19,7 +19,7 @@ function call(){
 
   
 function okGoogle(txt){
-  synthes = new SpeechSynthesisUtterance("OK, グーグル " + txt);
+  synthes = new SpeechSynthesisUtterance("OK, グーグル。 " + txt);
   speechSynthesis.speak( synthes );
 }
 
