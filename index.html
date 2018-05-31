@@ -10,12 +10,31 @@
   <div class="main">
   <div class="read-container">
     <textarea type="text" id="txt">ここの文字を読み上げます。</textarea>
-    <button type="button" onClick="read()">読む！</button>
+    <button type="button" class="call-btn" onClick="read()">読む！</button>
   </div>
 
   <div class="call-container">
     <input type="number" id="num" value="1234" oninput="lengthCheck(this)">
-    <button type="button" onClick="call()">呼出！</button>
+    <button type="button" class="call-btn" onClick="call()">呼出！</button>
+  </div>
+
+
+  <div class="google-call-container">
+    <div>
+      <button type="button" class="google-call-btn" onClick="googleCall(0)">こんにちは</button>
+    </div>
+    <div>
+      <button type="button" class="google-call-btn" onClick="googleCall(1)">天気</button>
+    </div>
+    <div>
+      <button type="button" class="google-call-btn" onClick="googleCall(2)">運勢</button>
+    </div>
+    <div>
+      <button type="button" class="google-call-btn" onClick="googleCall(3)">陽気な音楽</button>
+    </div>
+    <div>
+      <button type="button" class="google-call-btn" onClick="googleCall(4)">おやすみ</button>
+    </div>
   </div>
 </div>
 

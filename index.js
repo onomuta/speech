@@ -16,6 +16,33 @@ function call(){
   speechSynthesis.speak( synthes );
 }
 
+
+  
+function okGoogle(txt){
+  synthes = new SpeechSynthesisUtterance("OK, グーグル " + txt);
+  speechSynthesis.speak( synthes );
+}
+
+function googleCall(n){
+  switch( n ) {
+    case 0:
+      okGoogle("こんにちは");
+      break;
+    case 1:
+      okGoogle("今日の天気は？");  
+      break;
+    case 2:
+      okGoogle("今日の運勢は？");  
+    break;
+    case 3:
+      okGoogle("陽気な音楽を流して");
+    break;
+    case 4:
+      okGoogle("おやすみなさい");  
+    break;
+  }
+}
+
 //漢数字変換
 function num2kan (n) {
 	var output_data = "";//返り値

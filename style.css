@@ -13,10 +13,11 @@ html {
 }
 
 .read-container, .call-container {
-  margin: 8px;
+  margin: 8px 0;
 }
 
 input, textarea {
+  float: left;
   vertical-align: middle;
   padding: 0;
   height: 40px;
@@ -34,7 +35,17 @@ button {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  width: 60px;
+  width: 100px;
   height: 40px;
   border-radius: 0px;
+}
+.call-btn{
+  border-left: solid 1px #eee
+}
+.google-call-btn{
+  width:100%;
+  margin-bottom: 10px
+}
+.google-call-container{
+
 }
