@@ -19,7 +19,7 @@ function call(){
 
   
 function okGoogle(txt){
-  synthes = new SpeechSynthesisUtterance("OK, グーグル。 " + txt);
+  synthes = new SpeechSynthesisUtterance("OK, グーグル 。 " + txt);
   speechSynthesis.speak( synthes );
 }
 
@@ -32,7 +32,7 @@ function googleCall(n){
       okGoogle("今日の天気は？");  
       break;
     case 2:
-      okGoogle("今日の運勢は？");  
+      okGoogle("てんびん座の今日の運勢は？");  
     break;
     case 3:
       okGoogle("陽気な音楽を流して");
